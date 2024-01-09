@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d43219df.css",
-    "main.js": "/portfolio/static/js/main.626045ee.js",
+    "main.js": "/portfolio/static/js/main.bc113164.js",
     "static/media/develop-transparent.gif": "/portfolio/static/media/develop-transparent.e43032d60e5067b39229.gif",
     "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.cb254f156109afed32c4.jpg",
     "static/media/istqb.svg": "/portfolio/static/media/istqb.3e525cf6f1ef1af1bfa5bfd15a9a2fb3.svg",
     "static/media/e-learning.png": "/portfolio/static/media/e-learning.e2f7333046d0323b58b4.png",
+    "static/media/codeenchant.png": "/portfolio/static/media/codeenchant.d18e7b94d95ec32e8f4e.png",
     "static/media/NguyenMinhQuan-Junior.pdf": "/portfolio/static/media/NguyenMinhQuan-Junior.f7b5af1e1d6e60a470f8.pdf",
     "static/media/soundoff.png": "/portfolio/static/media/soundoff.5b0812c924481c5c83d1.png",
     "static/media/soundon.png": "/portfolio/static/media/soundon.cd910f8642ac727942d0.png",
@@ -71,10 +72,10 @@
     "static/media/arrow.svg": "/portfolio/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
     "static/media/facebook-tile.svg": "/portfolio/static/media/facebook-tile.9b2a83c9d1559084b38b710daef7d3f7.svg",
     "main.d43219df.css.map": "/portfolio/static/css/main.d43219df.css.map",
-    "main.626045ee.js.map": "/portfolio/static/js/main.626045ee.js.map"
+    "main.bc113164.js.map": "/portfolio/static/js/main.bc113164.js.map"
   },
   "entrypoints": [
     "static/css/main.d43219df.css",
-    "static/js/main.626045ee.js"
+    "static/js/main.bc113164.js"
   ]
 }
