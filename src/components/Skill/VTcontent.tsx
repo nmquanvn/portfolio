@@ -1,5 +1,4 @@
 import React from "react";
-import "./VTcontent.css";
 
 function VTcontent(props: any) {
   let data = props.data.expData;

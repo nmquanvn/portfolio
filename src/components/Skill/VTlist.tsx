@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./VTlist.css";
-
 function VTlist(props: any) {
   const Clicked = () => {
     props.onClick(props.index);
