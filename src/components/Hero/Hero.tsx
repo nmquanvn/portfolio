@@ -20,7 +20,7 @@ export function Hero() {
                     animateOnce={true}
                     delay={0.4 * 1000}
                 >
-                    <h3>Backend/ Software Developer</h3>
+                    <h3>Web Developer / Application Developer</h3>
                 </AnimationOnScroll>
                 <AnimationOnScroll
                     animateIn="fadeInUp"
@@ -28,7 +28,7 @@ export function Hero() {
                     delay={0.6 * 1000}
                 >
                     <p className="small-resume">
-                        I am a passionate backend web developer with a good
+                        I am a passionate web developer with a good
                         foundation in creating robust, scalable, and secure web
                         applications using Java and Spring Boot.
                     </p>
@@ -45,8 +45,8 @@ export function Hero() {
                                 Contact
                             </HashLink>
                         </BrowserRouter>
-                        <a href={cv} download className="button button-2">
-                            Get my CV
+                        <a href="https://drive.google.com/file/d/1aG-neIwxtvuJWpOgf8LNUc5Oo9VmxyvR/view?usp=sharing" target="_blank" className="button button-2" rel="noreferrer">
+                            Get my CV 
                         </a>
                     </div>
                 </AnimationOnScroll>

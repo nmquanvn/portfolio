@@ -12,13 +12,13 @@ function Timeline() {
         <Container id="timeline">
             <h2>Places that I used to work</h2>
             <div className="timeline">
-                <VerticalTimeline lineColor="var(--maincolor)">
+                <VerticalTimeline lineColor="var(--main)">
                     {experiences.map((experience, index) => (
                         <VerticalTimelineElement
                             key={experience.company_name}
                             date={experience.date}
                             iconStyle={{
-                                boxShadow: "0 0 0 4px var(--maincolor)",
+                                boxShadow: "0 0 0 4px var(--main)",
                                 background: experience.iconBg,
                             }}
                             icon={

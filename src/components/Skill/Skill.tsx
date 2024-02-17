@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Row, Col } from "reactstrap";
 import { Container } from "./styles";
-import VTlist from "./VTlist";
-import VTcontent from "./VTcontent";
+import VTlist from "./list";
+import VTcontent from "./content";
 import { skillsData } from "../../constants/skills.js";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
@@ -19,8 +19,8 @@ export function Skill() {
                     <h2>My skills</h2>
                     <Row>
                         <Col id="col-1">
-                            <div className="section__Jobs-styledTab">
-                                <ul className="section__Jobs-styledTabList">
+                            <div className="styledTab">
+                                <ul className="styledTabList">
                                     {skillsData.fields.map(
                                         (job: any, index: any) => (
                                             <VTlist

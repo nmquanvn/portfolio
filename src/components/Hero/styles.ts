@@ -33,6 +33,12 @@ export const Container = styled.section`
     .button {
         padding: 1.4rem 6rem;
         text-align: center;
+        &:hover {
+            background-color: var(--pink);
+            a {
+                color: #fff;
+            }
+        }
     }
 
     .button-2 {

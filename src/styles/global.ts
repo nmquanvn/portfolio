@@ -6,14 +6,14 @@ export const GlobalStyle = createGlobalStyle`
   ${variables};
   :root{
     --pink: #E31F71;
-    --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
 
-    --maincolor: #23ce6b;
+    --main: var(--green);
+    --text: var(--white);
     --project-title: #a8b2d1;
     --project-skills: #ccd6f6; 
-
+    --background: var(--black);
     --dodgerblue: #1E90FF;
     scroll-padding-top: 10rem;
 
@@ -21,7 +21,11 @@ export const GlobalStyle = createGlobalStyle`
     
     &.light{
 
-      --maincolor: #1E90FF;
+      --main: var(--dodgerblue);
+      
+      --background: var(--white);
+
+      --text: var(--black);
       
       --project-skills: #495670;
 
@@ -30,11 +34,11 @@ export const GlobalStyle = createGlobalStyle`
         .date {
           color: var(--white);
         }
-    }
+      }
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: var(--background);
         color: var(--black);
       }
 
@@ -52,12 +56,6 @@ export const GlobalStyle = createGlobalStyle`
       .first-word{
         margin-right: 5px;
         color: var(--dodgerblue);
-      }
-
-      nav > a.button {
-        background-color: var(--dodgerblue);
-        color: #ffffff !important;
-        
       }
 
       .timeline {
@@ -85,28 +83,28 @@ export const GlobalStyle = createGlobalStyle`
         background-color: var(--dodgerblue);
       }
 
-      @media (max-width: 1212px) {
-        nav {
-          background-color: var(--white)
-        }
-      }
-
       header.header-fixed{
         transition: 0.5s;
         background-color: #f5f5f550;
         a{
           transition: 0.5s;
           color: black;
-
-          &:not(.logo):hover {
-            color: var(--pink);
-          }
         }
         .menu,.menu:before, .menu:after{
           background-color: var(--black); 
         }
         .menu.active{
           background-color: rgba(555,555,555,0);
+        }
+        a:not(.logo,.button):hover {
+          color: var(--main);
+        }
+
+        a.button:hover {
+            background-color: var(--pink);
+            a {
+                color: #fff;
+            }
         }
       }
 
@@ -153,7 +151,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: var(--background);
     color: #FFFF;
   }
 
@@ -174,9 +172,6 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 2rem;
     font-weight: 500;
     transition: filter 0.25s;
-    &:hover{
-      filter: brightness(0.8);
-    }
   }
 
   button:disabled, .button:disabled{

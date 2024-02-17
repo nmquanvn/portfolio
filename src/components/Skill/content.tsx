@@ -1,12 +1,11 @@
 import React from "react";
 
-function VTcontent(props: any) {
+function content(props: any) {
   let data = props.data.expData;
-
   return (
     <div
       key={props.index}
-      className="section__Jobs-styledContent"
+      className="styledContent"
       style={
         props.activeTabId === props.index
           ? { display: "block" }
@@ -16,10 +15,10 @@ function VTcontent(props: any) {
       <h4>{data?.position}</h4>
       <h5>{data?.period}</h5>
       {data?.details.map((detail: any, index: any) => (
-        <p className="section__Jobs-detail" key={index}>{detail}</p>
+          <p className="detail" key={index}><span className="subject">{`${detail.subject}:`}&nbsp;</span>{detail.value}</p>
       ))}
     </div>
   );
 }
 
-export default VTcontent;
+export default content;

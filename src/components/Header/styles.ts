@@ -30,10 +30,20 @@ export const Container = styled.header`
 
             &.button {
                 padding: 0.6rem 5rem;
+                background-color: var(--main);
+                color: #ffffff !important;
             }
 
-            &:hover {
-                color: var(--pink);
+        }
+
+        a:not(.logo,.button):hover {
+            color: var(--main);
+          }
+
+        a.button:hover {
+            background-color: var(--pink);
+            a {
+                color: #fff;
             }
         }
     }
@@ -161,12 +171,24 @@ export const Container = styled.header`
             position: fixed;
             width: 100vw;
             height: 100vh;
-            background: var(--blue);
             top: 0;
             left: 0;
             transition: opacity 0.25s;
-            background-color: var(--green);
-
+            background-color: var(--background);
+            a {
+                background-color: var(--main);
+                width: 80%;
+                padding: 10px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background-color: var(--pink);
+                }
+            }
+            a:not(.logo,.button):hover {
+                color: var(--white) !important;
+              }
             a.button {
                 background-color: var(--pink);
             }

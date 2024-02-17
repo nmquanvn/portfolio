@@ -28,38 +28,73 @@ export const skillsData = {
     fields: [
         {
             expData: {
-                tech: "Back-End",
-                position: "Java Developer (Spring Boot)",
-                period: "nearly 2 years of experience",
+                tech: "Web App",
+                position: "Web Developer (Spring Boot)",
+                period: "more than 2 years of experience",
                 details: [
-                    "Other languages: Golang, NodeJS, Python.",
-                    "Web frameworks: Spring Boot, Gin, Express.",
-                    "Databases: MySQL, SQLServer, PostgreSQL, Redis, MongoDB, Firebase.",
-                    "Unit Testing frameworks: JUnit, Mocha.",
+                    {
+                        subject:"Languages",
+                        value:"Java, Golang, Javascript, Typescript, Python, Html/Css."
+                    },
+                    {
+                        subject:"Web frameworks/libaries",
+                        value:"Spring Framework, Gin, Express.js, React.js."
+                    },
+                    {
+                        subject:"Databases",
+                        value:"MySQL, PostgreSQL, Redis, MongoDB, Firebase."
+                    },
+                    {
+                        subject:"Unit Testing frameworks",
+                        value:"JUnit, Mocha."
+                    },
                 ],
             },
         },
         {
             expData: {
-                tech: "Front-End",
-                position: "ReactJS Developer",
+                tech: "Desktop App",
+                position: ".NET App Developer",
                 period: "nearly 1 year of experience",
                 details: [
-                    "Core Front-End technologies: HTML, CSS, Javascript.",
-                    "Web frameworks/libraries: ReactJS, MUI, TailwindCSS.",
-                    "Web Automation Testing frameworks/libraries: Selenium, Beautiful Soup (Python / Javascript).",
+                    {
+                        subject:"Languages",
+                        value:"C#, C++, Visual Basic."
+                    },
+                    {
+                        subject:"App frameworks/libraries",
+                        value:".NET Framework, Winform, WPF, VBA."
+                    },
+                    {
+                        subject:"Databases",
+                        value:"SQL Server, MS Access, MS Excel."
+                    },
                 ],
             },
         },
         {
             expData: {
-                tech: "Desktop",
-                position: ".NET Software Developer",
+                tech: "Quality Assurance",
+                position: "QA Engineer",
                 period: "nearly 1 year of experience",
                 details: [
-                    "Core languages: C#, VB.NET, VBA.",
-                    "Core Frameworks: .NET Application, Entity Framework.",
-                    "Databases: SQLServer, Microsoft Access.",
+                    {
+                        subject:"Functional testing",
+                        value:"System & Unit, Regression, User Acceptance, Integration."
+                    },
+                    {
+                        subject:"Non-Functional testing",
+                        value:"Usability, , Usability, Stress, Load, Performance, Volumn."
+                    },
+                    {
+                        subject:"Tracker/Management",
+                        value:"Mantis, MS Excel, Redmine."
+                    },
+                    {
+                        subject:"Automation",
+                        value:"Selenium WebDriver, JMeter, Beautiful Soup (Python / Javascript)."
+                    },
+                    
                 ],
             },
         },
@@ -67,10 +102,30 @@ export const skillsData = {
             expData: {
                 tech: "Tools",
                 details: [
-                    "Version control tools: Git, SVN.",
-                    "Operating systems: Windows, Linux (Ubuntu).",
-                    "IDEs: IntelliJ, Eclipse, Visual Studio.",
-                    "Virtualization tools: Docker, VMWare, Oracle VirtualBox.",
+                    {
+                        subject:"Version control",
+                        value:"Git, SVN, Tortoise Git, GitKraken."
+                    },
+                    {
+                        subject:"OS",
+                        value:"Windows, Linux."
+                    },
+                    {
+                        subject:"IDE",
+                        value:"IntelliJ, Eclipse, Visual Studio (Code)."
+                    },
+                    {
+                        subject:"Virtualization",
+                        value:"Docker, VMWare, Oracle VirtualBox."
+                    },
+                    {
+                        subject:"Testing",
+                        value:"Selenium IDE, JMeter."
+                    },
+                    {
+                        subject:"Others",
+                        value:"Slack, Office 365."
+                    },
                 ],
             },
         },

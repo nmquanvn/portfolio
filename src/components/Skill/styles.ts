@@ -16,20 +16,20 @@ export const Container = styled.section`
     position: relative;
   }
 
-  .section__Jobs-styledContent {
+  .styledContent {
     font-family: sans-serif;
     text-align: left;
     color: #c9d1eb;
     padding: 20px 20px;
   }
   
-  .section__Jobs-styledContent h4 {
+  .styledContent h4 {
     color: #ccd6f6;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
   }
   
-  .section__Jobs-styledContent h5 {
+  .styledContent h5 {
     font-size: 13px;
     font-family: "Roboto Mono", monospace;
     letter-spacing: 0.05em;
@@ -37,20 +37,33 @@ export const Container = styled.section`
     color: #64ffda;
   }
   
-  .section__Jobs-styledContent p {
+  .styledContent p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
   }
   
-  .section__Jobs-detail::before {
+  .wrapper {
+    display: flex;
+  }
+
+  .detail::before {
     content: "▹";
     position: relative;
     left: 0px;
     color: #64ffda;
   }
 
-  .section__Jobs-buttonCompany {
+  .detail {
+    display:flex;
+  }
+
+  .subject {
+    color: var(--main);
+    font-weight: 700;
+  }
+
+  .category {
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
@@ -63,14 +76,14 @@ export const Container = styled.section`
     padding: 0 20px;
   }
   
-  .section__Jobs-buttonCompany:hover,
-  .section__Jobs-buttonCompany:focus {
+  .category:hover,
+  .category:focus {
     background-color: #172a45;
   }
   
-  .section__Jobs-buttonCompany:hover,
-  .section__Jobs-buttonCompany:active,
-  .section__Jobs-buttonCompany:focus {
+  .category:hover,
+  .category:active,
+  .category:focus {
     color: #64ffda;
     outline: 0px;
     border-left: 2px solid#64ffda;
@@ -83,12 +96,13 @@ export const Container = styled.section`
     display: flex;
   }
   #col-1 {
-    width: 150px;
-    max-width: 200px;
+    width: 180px;
+    max-width: 250px;
     background-color: #295a9e;opacity: 0.8;
   }
   #col-2 {
     width: 100%;
+    height: 300px;
     background-color: #131a24;opacity: 0.8;
   }
   .section__Skills-container span {
@@ -102,16 +116,39 @@ export const Container = styled.section`
     height: 42px;
     transition: transform 0.5s;
   }
-  .section__Jobs-styledTab{
+  .styledTab{
     width: 100%;
   }
-  .section__Jobs-styledTabList {
+  .styledTabList {
+    list-style-type: none;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    flex-direction: column;
+
+    li {
+      display: table-row;
+      button {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
+
 
   @media (max-width: 960px){
     display: block;
     text-align: center;
+    #col-1 {
+      width: 50%
+    }
+    #col-2 {
+      height: 500px;
+      background-color: #131a24;opacity: 0.8;
+    }
   }
 
 `

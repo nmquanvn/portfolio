@@ -127,7 +127,7 @@ export const StyledProject = styled.li`
 
     .project-overline {
         margin: 10px 0;
-        color: var(--maincolor);
+        color: var(--main);
         font-family: var(--font-mono);
         font-size: var(--fz-xs);
         font-weight: 400;
@@ -190,18 +190,18 @@ export const StyledProject = styled.li`
         a {
             display: inline-block;
             position: relative;
-            color: var(--maincolor);
+            color: var(--main);
             transition: var(--transition);
 
             &:hover,
             &:focus-visible {
-                color: var(--maincolor);
+                color: var(--main);
                 outline: 0;
                 &:after {
                     width: 100%;
                 }
                 & > * {
-                    color: var(--maincolor) !important;
+                    color: var(--main) !important;
                     transition: var(--transition);
                 }
             }
@@ -212,7 +212,7 @@ export const StyledProject = styled.li`
                 height: 2px;
                 position: relative;
                 bottom: 0.2em;
-                background-color: var(--maincolor);
+                background-color: var(--main);
                 opacity: 0.5;
                 @media (prefers-reduced-motion: no-preference) {
                     transition: var(--transition);
@@ -267,7 +267,7 @@ export const StyledProject = styled.li`
             align-items: center;
             padding: 10px;
             margin: 0 10px;
-            background-color: var(--maincolor);
+            background-color: var(--main);
             &.external {
                 svg {
                     width: 22px;
@@ -286,9 +286,9 @@ export const StyledProject = styled.li`
         }
 
         .cta {
-            color: var(--maincolor);
+            color: var(--main);
             background-color: transparent;
-            border: 1px solid var(--maincolor);
+            border: 1px solid var(--main);
             border-radius: var(--border-radius);
             padding: 0.75rem 1rem;
             font-size: var(--fz-xs);
@@ -300,7 +300,7 @@ export const StyledProject = styled.li`
             &:hover,
             &:focus-visible {
                 outline: none;
-                box-shadow: 3px 3px 0 0 var(--maincolor);
+                box-shadow: 3px 3px 0 0 var(--main);
                 transform: translate(-4px, -4px);
             }
             &:after {
@@ -333,7 +333,7 @@ export const StyledProject = styled.li`
         a {
             width: 100%;
             height: 100%;
-            background-color: var(--maincolor);
+            background-color: var(--main);
             border-radius: var(--border-radius);
             vertical-align: middle;
 

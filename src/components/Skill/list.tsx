@@ -1,6 +1,6 @@
 import React from "react";
 
-function VTlist(props: any) {
+function list(props: any) {
   const Clicked = () => {
     props.onClick(props.index);
   };
@@ -8,7 +8,7 @@ function VTlist(props: any) {
   return (
     <li key={props.index} style={{ listStyle: "none", textAlign: "left" }}>
       <button
-        className="section__Jobs-buttonCompany"
+        className="category"
         onClick={Clicked}
         style={
           props.activeTabId === props.index
@@ -22,4 +22,4 @@ function VTlist(props: any) {
   );
 }
 
-export default VTlist;
+export default list;

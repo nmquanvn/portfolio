@@ -58,7 +58,7 @@ export function Header() {
                         Contact
                     </HashLink>
                     <a
-                        href={cv}
+                        href="https://drive.google.com/file/d/1aG-neIwxtvuJWpOgf8LNUc5Oo9VmxyvR/view?usp=sharing"
                         target="_blank"
                         className="button"
                         rel="noreferrer"
