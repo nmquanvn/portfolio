@@ -19,6 +19,35 @@ export const Container = styled.section`
             margin: 1rem 0;
         }
 
+        .title {
+            color: var(--main);
+            font-weight: 800;
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
+        .template {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .placeholder-title {
+            display: flex;
+            visibility: hidden;
+        }
+
+        .type-wrapper {
+            display: flex;
+            top: 0;
+            left: 0;
+        }
+
+        .stacked {
+            position: relative;
+        }
+
         p.small-resume {
             margin-bottom: 5rem;
         }

@@ -76,7 +76,7 @@ export const skillsData = {
             expData: {
                 tech: "Quality Assurance",
                 position: "QA Engineer",
-                period: "nearly 1 year of experience",
+                period: "more than 1 year of experience",
                 details: [
                     {
                         subject:"Functional testing",
@@ -84,7 +84,7 @@ export const skillsData = {
                     },
                     {
                         subject:"Non-Functional testing",
-                        value:"Usability, , Usability, Stress, Load, Performance, Volumn."
+                        value:"Usability, Stress, Load, Performance, Volumn."
                     },
                     {
                         subject:"Tracker/Management",
@@ -101,6 +101,7 @@ export const skillsData = {
         {
             expData: {
                 tech: "Tools",
+                position: "Tools & Softwares",
                 details: [
                     {
                         subject:"Version control",

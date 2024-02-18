@@ -3,7 +3,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 
-import { cv } from "../../constants/open";
 import { useMode } from "../Mode/Mode";
 export function Header() {
     const [isActive, setActive] = useState(false);
