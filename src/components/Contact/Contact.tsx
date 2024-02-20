@@ -38,10 +38,10 @@ export function Contact() {
                             Skype
                         </div>
                     </a>
-                    <a href="mailto:quan.styx@gmail.com">
+                    <a href="mailto:nmquanvn@gmail.com">
                         <div>
                             <img src={emailIcon} alt="Email" />
-                            quan.styx@gmail.com
+                            nmquanvn@gmail.com
                         </div>
                     </a>
                     <a href="tel:+840906903819">

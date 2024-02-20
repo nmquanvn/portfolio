@@ -31,6 +31,7 @@ export function Cert() {
           </header>
         </div>
       </AnimationOnScroll> */}
+      
             </div>
         </Container>
     );

@@ -9,19 +9,34 @@ export const Container = styled.section`
         margin-bottom: 10rem;
     }
 
-    .certificates {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
-        grid-template-rows: auto;
+    .certificates:has(> :only-child) {
+        display: flex;
         align-items: center;
-        gap: 2rem;
-        padding: 1rem;
-        overflow: hidden;
         justify-content: center;
+    }
+
+    .certificates:has(> :nth-child(2)) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .certificates:has(> :nth-child(3)) {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px;
+    }
+
+    .certificates {
+        overflow: hidden;
+        grid-gap: 50px;
+        grid-auto-flow: row dense;
+        padding: 1rem;
 
         .certificate {
+            flex-grow: 1;
             padding: 2rem 1.8rem;
-            background-color: #2b2b2b;
+            background-color: var(--box);
             border-radius: 1.2rem;
             transition: 0.25s;
             display: flex;
@@ -35,10 +50,11 @@ export const Container = styled.section`
             }
 
             header {
+                width: 100%;
+                height: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                color: var(--blue);
                 margin-bottom: 3.6rem;
                 a > img {
                     width: 100%;
@@ -72,6 +88,29 @@ export const Container = styled.section`
                     opacity: 0.6;
                 }
             }
+
+
+            @media (max-width: 510px) {
+                .certificates {
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1530px) {
+        .certificates {
+            grid-template-columns: auto auto;
+        }
+    }
+
+    @media (max-width: 1078px) {
+        .certificates {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
         }
     }
 `;

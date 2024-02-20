@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --main: var(--green);
     --text: var(--white);
+    --box: #2b2b2b;
     --project-title: #a8b2d1;
     --project-skills: #ccd6f6; 
     --background: var(--black);
@@ -26,6 +27,8 @@ export const GlobalStyle = createGlobalStyle`
       --background: var(--white);
 
       --text: var(--black);
+
+      --box: var(--blue);
       
       --project-skills: #495670;
 

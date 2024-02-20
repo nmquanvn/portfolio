@@ -47,7 +47,8 @@ export function Hero() {
                     <p className="small-resume">
                         I am a passionate web developer with a good
                         foundation in creating robust, scalable, and secure web
-                        applications using Java and Spring Boot.
+                        applications.
+                        <br/>Let's code something cool that not only work like a charm but also make users smile! 😎🚀
                     </p>
                 </AnimationOnScroll>
 

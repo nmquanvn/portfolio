@@ -25,6 +25,21 @@ import {
 } from "../assets/icons";
 
 export const skillsData = {
+    keys: [
+        "Strong understanding of OOP concepts, SOLID principles.",
+        "Solid knowledge of design patterns and how to write clean and efficient code.",
+        "Experience with web frameworks.",
+        "Strong understanding of algorithms and data structures to optimize code and solve problems efficiently.",
+        "Work independently, work in a team, work in groups, and work in a high pressure environment.",
+        "Self-study ability and solving problems, high responsibility, strong determination.",
+        "Proficient in Restful API development including designing, developing, maintaining, and API documentation.",
+        "Experience with working with all types of codebases ranging from small services to large monoliths and microservices.",
+        "Solid understanding of CI/CD Pipelines.",
+        "Pay attention to small details.",
+        "Project integration and documentation using Microsoft Office tools.",
+        "Experience with containerization tools like Docker and orchestration tools like Kubernetes.",
+        "Familiarity with Agile and Scrum methodologies, including sprints, stand-ups, and iterative development.",
+    ],
     fields: [
         {
             expData: {
@@ -113,7 +128,7 @@ export const skillsData = {
                     },
                     {
                         subject:"IDE",
-                        value:"IntelliJ, Eclipse, Visual Studio (Code)."
+                        value:"Jetbrains, Eclipse, Visual Studio (Code)."
                     },
                     {
                         subject:"Virtualization",
@@ -124,7 +139,7 @@ export const skillsData = {
                         value:"Selenium IDE, JMeter."
                     },
                     {
-                        subject:"Others",
+                        subject:"Other",
                         value:"Slack, Office 365."
                     },
                 ],

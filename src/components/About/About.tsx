@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import profileImage from "../../assets/profile-image.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { skills } from "../../constants/skills";
+import { ReactTyped } from "react-typed";
 
 export function About() {
     return (
@@ -11,42 +12,15 @@ export function About() {
                 <AnimationOnScroll animateIn="fadeInLeft" animateOnce={true}>
                     <h2>About Me</h2>
                 </AnimationOnScroll>
-                <AnimationOnScroll
-                    animateIn="fadeInLeft"
-                    animateOnce={true}
-                    delay={0.3 * 1000}
-                >
-                    <p>
-                        Hello, I'm Nguyen Minh Quan, and I'm all about making
-                        cool stuff with code. I've teamed up with project
-                        managers, designers, and frontend devs, getting the hang
-                        of how things tick in the web development world.
-                    </p>
-                </AnimationOnScroll>
-                <AnimationOnScroll
-                    animateIn="fadeInLeft"
-                    animateOnce={true}
-                    delay={0.4 * 1000}
-                    style={{ marginTop: "2rem", marginBottom: "2rem" }}
-                >
-                    <p>
-                        I'm into Java and other languages, and if you've got a
-                        project that needs some creative tech magic, count me
-                        in!
-                    </p>
-                </AnimationOnScroll>
-                <AnimationOnScroll
-                    animateIn="fadeInLeft"
-                    animateOnce={true}
-                    delay={0.6 * 1000}
-                >
-                    <p>
-                        I'm seeking an opportunity to work on challenging
-                        projects that require creative solutions through the use
-                        of my skills.
-                    </p>
-                </AnimationOnScroll>
-
+                <div className="text-wrap">
+                <ReactTyped strings={["Greetings, <br /><br /> I am Nguyen Minh Quan, a young Software Engineer with little more than 2 years of experience. <br /><br /> My proficiency extends to prominent programming languages, including Java, Python, and Golang. My professional focus lies in the meticulous design and implementation of robust solutions that align with exacting standards. <br /><br /> My experience encompasses a spectrum of responsibilities, from bug resolution to the optimization of application systems. In addition, I remain dedicated to remaining abreast of the latest technological advancements and industry best practices. <br /><br />Thank you for checking out my profile. <br /><br /> Quan Nguyen."]}
+                        className="text" 
+                        typeSpeed={5}
+                        onComplete={(self) => {self.cursor.remove()}}
+                        cursorChar="&#9608;"
+                        showCursor={true}
+                        />
+                </div>
                 <div className="skills-wrap">
                     {skills.map((skill, index) => (
                         <AnimationOnScroll

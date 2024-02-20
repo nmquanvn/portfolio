@@ -17,7 +17,11 @@ export const Container = styled.section`
         color: var(--green);
     }
 
-    p {
+    .text-wrap {
+        height: 420px;
+    }
+
+    p, .text {
         font-size: 1.8rem;
         letter-spacing: 0.1rem;
         font-weight: 500;
@@ -144,9 +148,14 @@ export const Container = styled.section`
         }
     }
 
-    @media (max-width: 960px) {
+    @media (max-width: 660px) {
+        .text-wrap {
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 1360px) {
         display: block;
-        text-align: center;
 
         .about-image {
             display: flex;
@@ -157,5 +166,9 @@ export const Container = styled.section`
         .soft-skills {
             justify-content: center;
         }
+    }
+
+    @media (max-width: 960px) {
+        text-align: center;
     }
 `;

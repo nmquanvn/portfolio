@@ -5,6 +5,7 @@ import VTlist from "./list";
 import VTcontent from "./content";
 import { skillsData } from "../../constants/skills.js";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import { ReactTyped } from "react-typed";
 
 export function Skill() {
     const [activeTabId, setActiveTabId] = useState(0);
@@ -15,8 +16,25 @@ export function Skill() {
     return (
         <AnimationOnScroll animateIn="flipInX" animateOnce={true}>
             <Container id="skills" className="section__Skills-container">
-                <div className="skill-text">
                     <h2>My skills</h2>
+                <div className="skill-text">
+                    <ReactTyped strings={["Key Strengths:"]}
+                            className="skill-title" 
+                            typeSpeed={60}
+                            onComplete={self => self.cursor.remove()}
+                            startDelay={2000}
+                            cursorChar="&#9608;"
+                            showCursor={true}/>
+                    <ul className="skill-content">
+                        {skillsData.keys.map((string, index) => (<li key={index}>{string}</li>))}
+                    </ul>
+                    <ReactTyped strings={["Technologies:"]}
+                        className="skill-title" 
+                        typeSpeed={60}
+                        onComplete={self => self.cursor.remove()}
+                        startDelay={2000}
+                        cursorChar="&#9608;"
+                        showCursor={true}/>
                     <Row>
                         <Col id="col-1">
                             <div className="styledTab">

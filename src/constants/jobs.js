@@ -27,7 +27,7 @@
 import { sutrix, systemexe } from "../assets/images";
 export const jobs = { works: [
     {
-        title: "Java Developer/Intern",
+        title: "Software Engineer/Intern",
         company_name: "Sutrix Solutions",
         company_link: "https://sutrixgroup.com/en/",
         icon: sutrix,
@@ -36,13 +36,13 @@ export const jobs = { works: [
         points: [
             "Develop and maintain web applications using Adobe Experience Manager and other related technologies.",
             "Work with other teams including designers, testers, and other developers to create and maintain high-quality products.",
-            "Participate in code reviews guided by experienced engineers to receive constructive feedback and continuously improve coding standards.",
+            "Participate in code reviews guided by experienced engineers.",
             "Implement responsive design and ensuring cross-browser compatibility.",
             "Participate in workshops and and training opportunities to increase understanding of technologies and methodologies.",
         ],
     },
     {
-        title: "Software Developer",
+        title: "Software Engineer",
         company_name: "System EXE Vietnam",
         company_link: "https://system-exe.com.vn/",
         icon: systemexe,

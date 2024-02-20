@@ -15,6 +15,28 @@ export const Container = styled.section`
     margin-top: 50px;
     position: relative;
   }
+  .skill-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-title {
+    color: var(--main);
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-decoration: underline;
+  }
+
+  ul.skill-content {
+    padding-left: 20px;
+    & > li {
+      font-size: 1.8rem;
+      letter-spacing: 0.1rem;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+  }
 
   .styledContent {
     font-family: sans-serif;
