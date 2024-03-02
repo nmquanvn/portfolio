@@ -31,7 +31,7 @@ export const skillsData = {
         "Experience with web frameworks.",
         "Strong understanding of algorithms and data structures to optimize code and solve problems efficiently.",
         "Work independently, work in a team, work in groups, and work in a high pressure environment.",
-        "Self-study ability and solving problems, high responsibility, strong determination.",
+        "Self-study ability and solving problems, high responsibility, and strong determination.",
         "Proficient in Restful API development including designing, developing, maintaining, and API documentation.",
         "Experience with working with all types of codebases ranging from small services to large monoliths and microservices.",
         "Solid understanding of CI/CD Pipelines.",

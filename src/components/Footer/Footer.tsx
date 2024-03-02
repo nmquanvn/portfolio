@@ -16,8 +16,9 @@ export function Footer() {
             </a>
             <div>
                 <p>
-                    <img src={reactIcon} alt="React" /> Learning is the eye of
-                    the mind <img src={reactIcon} alt="React" />
+                    <img src={reactIcon} alt="React" /> 
+                    <p className="p1">Stay focused, persistent and relentless</p> 
+                    <img src={reactIcon} alt="React" />
                 </p>
             </div>
 

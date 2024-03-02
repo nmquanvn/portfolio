@@ -4,6 +4,8 @@ import phoneIcon from "../../assets/phone-icon.svg";
 import facebookIcon from "../../assets/facebook-icon.svg";
 import linkedinIcon from "../../assets/linkedin-icon.svg";
 import skypeIcon from "../../assets/skype-icon.svg";
+import zaloIcon from "../../assets/zalo-icon.svg";
+
 import { openForJobs } from "../../constants/open";
 import { Form } from "../Form/Form";
 
@@ -20,34 +22,40 @@ export function Contact() {
             </header>
             <div className="wrap">
                 <div className="contacts">
-                    <a href="https://www.facebook.com/nmquan123vn">
+                    <a href="mailto:nmquanvn@gmail.com">
                         <div>
-                            <img src={facebookIcon} alt="Email" />
-                            Facebook
+                            <img src={emailIcon} alt="Email" />
+                            <p>nmquanvn@gmail.com</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/quannm25">
                         <div>
-                            <img src={linkedinIcon} alt="Email" />
-                            LinkedIn
+                            <img src={linkedinIcon} alt="LinkedIn" />
+                            <p>LinkedIn</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/nmquan123vn">
+                        <div>
+                            <img src={facebookIcon} alt="Facebook" />
+                            <p>Facebook</p>
                         </div>
                     </a>
                     <a href="https://join.skype.com/invite/x2xDbRcsSCCK">
                         <div>
-                            <img src={skypeIcon} alt="Email" />
-                            Skype
+                            <img src={skypeIcon} alt="Skype" />
+                            <p>Skype</p>
                         </div>
                     </a>
-                    <a href="mailto:nmquanvn@gmail.com">
+                    <a href="https://zalo.me/0785615321">
                         <div>
-                            <img src={emailIcon} alt="Email" />
-                            nmquanvn@gmail.com
+                            <img src={zaloIcon} alt="Zalo" />
+                            <p>Zalo</p>
                         </div>
                     </a>
                     <a href="tel:+840906903819">
                         <div>
-                            <img src={phoneIcon} alt="Email" />
-                            (84) 090-690-3819
+                            <img src={phoneIcon} alt="Phone" />
+                            <p>(84) 090-690-3819</p>
                         </div>
                     </a>
                 </div>

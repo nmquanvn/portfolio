@@ -48,7 +48,7 @@ export function Hero() {
                         I am a passionate web developer with a good
                         foundation in creating robust, scalable, and secure web
                         applications.
-                        <br/>Let's code something cool that not only work like a charm but also make users smile! 😎🚀
+                        <br/>Let's build something cool that not only work like a charm but also make users smile! 😎🚀
                     </p>
                 </AnimationOnScroll>
 

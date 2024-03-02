@@ -22,6 +22,7 @@ export const Container = styled.footer`
             animation: spinning 5s infinite linear;
         }
     }
+
     .social-media {
         display: flex;
         align-items: center;

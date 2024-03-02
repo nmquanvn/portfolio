@@ -35,16 +35,20 @@ export const Container = styled.section`
             border-radius: 1.4rem;
             padding: 1.6rem 2.8rem;
             transition: background-color 0.25s;
-            img {
-                width: 4rem;
-            }
             div {
-                gap: 2rem;
+                gap: 4rem;
                 color: var(--black);
                 font-weight: 700;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                img {
+                    width: 4rem;
+                    margin-left: 2rem;
+                }
+                p {
+                    text-align: center;
+                    //flex: 1;
+                }
             }
             &:hover {
                 background-color: var(--pink);
