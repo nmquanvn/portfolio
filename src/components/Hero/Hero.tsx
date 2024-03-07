@@ -28,7 +28,7 @@ export function Hero() {
                         <h3 className="title placeholder-title">Application Developer</h3>                   
                     </div> */}
                     <div className="type-wrapper">
-                    <ReactTyped strings={["Web Developer &nbsp;/&nbsp; Software Developer"]}
+                    <ReactTyped strings={["Software &nbsp;/&nbsp; Web Developer"]}
                         className="title" 
                         typeSpeed={80}
                         loop

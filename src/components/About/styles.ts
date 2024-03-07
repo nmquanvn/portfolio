@@ -146,11 +146,8 @@ export const Container = styled.section`
             max-width: 100%;
             margin-top: 4rem;
         }
-    }
-
-    @media (max-width: 660px) {
         .text-wrap {
-            height: 100%;
+            height: 600px;
         }
     }
 

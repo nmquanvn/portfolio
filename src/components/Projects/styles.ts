@@ -142,7 +142,6 @@ export const StyledProject = styled.li`
         }
 
         @media (max-width: 768px) {
-            color: var(--white);
 
             a {
                 position: static;
@@ -174,7 +173,7 @@ export const StyledProject = styled.li`
         padding: 25px;
         border-radius: var(--border-radius);
         background-color: var(--light-navy);
-        color: var(--project-title);
+        color: var(--project-description);
         font-size: var(--fz-lg);
 
         @media (max-width: 768px) {

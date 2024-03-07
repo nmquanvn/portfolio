@@ -173,5 +173,22 @@ export const Container = styled.section`
     }
   }
 
+  @media only screen and (max-width: 480px) {
+    .styledTabList {
+      display: none;
+    }
+    #col-2 {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      & > .styledContent {
+        display: block !important;
+      }
+    }
+    .detail {
+      display:block;
+    }
+  }
+
 `
 

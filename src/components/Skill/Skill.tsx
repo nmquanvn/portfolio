@@ -14,7 +14,7 @@ export function Skill() {
     }
 
     return (
-        <AnimationOnScroll animateIn="flipInX" animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" animateOnce={true}>
             <Container id="skills" className="section__Skills-container">
                     <h2>My skills</h2>
                 <div className="skill-text">

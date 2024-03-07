@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     --main: var(--green);
     --text: var(--white);
     --box: #2b2b2b;
-    --project-title: #a8b2d1;
+    --project-title: var(--white);
     --project-skills: #ccd6f6; 
     --background: var(--black);
     --dodgerblue: #1E90FF;
@@ -32,8 +32,12 @@ export const GlobalStyle = createGlobalStyle`
       
       --project-skills: #495670;
 
+      --project-title: var(--black);
+      
+      --project-description: var(--white);
+
       @media (max-width: 768px) {
-        --project-title: var(--black);
+        --project-description: var(--black);
         .date {
           color: var(--white);
         }

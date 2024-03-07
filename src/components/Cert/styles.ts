@@ -88,13 +88,12 @@ export const Container = styled.section`
                     opacity: 0.6;
                 }
             }
+        }
 
-
-            @media (max-width: 510px) {
-                .certificates {
-                    width: 50%;
-                    height: 50%;
-                }
+        @media only screen and (max-width: 480px) {
+            .certificate {
+                height: 350px;
+                width: 350px;
             }
         }
     }
