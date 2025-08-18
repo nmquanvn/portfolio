@@ -1,1 +1,1 @@
-export const openForJobs = true; // change this value;
+export const openForJobs = false; // change this value;
