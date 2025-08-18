@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
-
+import { cv } from "../../constants/open";
 import { useMode } from "../Mode/Mode";
 export function Header() {
     const [isActive, setActive] = useState(false);
@@ -57,7 +57,7 @@ export function Header() {
                         Contact
                     </HashLink>
                     <a
-                        href="https://drive.google.com/file/d/1aG-neIwxtvuJWpOgf8LNUc5Oo9VmxyvR/view?usp=sharing"
+                        href={cv}
                         target="_blank"
                         className="button"
                         rel="noreferrer"

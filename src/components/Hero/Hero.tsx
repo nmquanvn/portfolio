@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 //import Illustration from "../../assets/illustration.svg"
 import Develop from "../../assets/develop-transparent.gif";
+import { cv } from "../../constants/open";
 import { HashLink } from "react-router-hash-link";
 import { ReactTyped } from "react-typed";
 import React from "react";
@@ -63,7 +64,7 @@ export function Hero() {
                                 Contact
                             </HashLink>
                         </BrowserRouter>
-                        <a href="https://drive.google.com/file/d/1aG-neIwxtvuJWpOgf8LNUc5Oo9VmxyvR/view?usp=sharing" target="_blank" className="button button-2" rel="noreferrer">
+                        <a href={cv} target="_blank" className="button button-2" rel="noreferrer">
                             Get my CV 
                         </a>
                     </div>

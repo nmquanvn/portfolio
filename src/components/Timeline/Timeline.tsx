@@ -10,7 +10,7 @@ function Timeline() {
     const experiences = jobs.works;
     return (
         <Container id="timeline">
-            <h2>Work Places</h2>
+            <h2>Career Path</h2>
             <div className="timeline">
                 <VerticalTimeline lineColor="var(--main)">
                     {experiences.map((experience, index) => (

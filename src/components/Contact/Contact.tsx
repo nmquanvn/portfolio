@@ -52,10 +52,10 @@ export function Contact() {
                             <p>Zalo</p>
                         </div>
                     </a>
-                    <a href="tel:+840906903819">
+                    <a href="tel:+840785615321">
                         <div>
                             <img src={phoneIcon} alt="Phone" />
-                            <p>(84) 090-690-3819</p>
+                            <p>(84) 078-561-5321</p>
                         </div>
                     </a>
                 </div>

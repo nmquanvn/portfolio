@@ -13,7 +13,7 @@ export function About() {
                     <h2>About Me</h2>
                 </AnimationOnScroll>
                 <div className="text-wrap">
-                <ReactTyped strings={["Greetings, <br /><br /> I am Nguyen Minh Quan, a young Software Engineer with little more than 2 years of experience. <br /><br /> My proficiency extends to prominent programming languages, including Java, Python, and Golang. My professional focus lies in the meticulous design and implementation of robust solutions that align with exacting standards. <br /><br /> My experience encompasses a spectrum of responsibilities, from bug resolution to the optimization of application systems. In addition, I remain dedicated to remaining abreast of the latest technological advancements and industry best practices. <br /><br />Thank you for checking out my profile. <br /><br /> Quan Nguyen."]}
+                <ReactTyped strings={["Greetings, <br /><br /> I am Nguyen Minh Quan, a Software Engineer with more than 3 years of experience. <br /><br /> My proficiency extends to prominent programming languages, including Java, Python, and Golang. My professional focus lies in the meticulous design and implementation of robust solutions that align with exacting standards. <br /><br /> My experience encompasses a spectrum of responsibilities, from bug resolution to the optimization of application systems. In addition, I remain dedicated to remaining abreast of the latest technological advancements and industry best practices. <br /><br />Thank you for checking out my profile. <br /><br /> Quan Nguyen."]}
                         className="text" 
                         typeSpeed={5}
                         onComplete={(self) => {self.cursor.remove()}}

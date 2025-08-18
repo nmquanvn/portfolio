@@ -24,7 +24,7 @@
 //     threads,
 //     typescript
 // } from "../assets/icons";
-import { sutrix, systemexe } from "../assets/images";
+import { sutrix, systemexe, atman, cyberlogitec } from "../assets/images";
 export const jobs = { works: [
     {
         title: "Software Engineer/Intern",
@@ -56,6 +56,49 @@ export const jobs = { works: [
             "Refactor present solutions by rewritting old codebase to follow up with new conventions and language/framework.",
             "Resolve bugs and exploits submitted by Support teams and QA engineers.",
             "Work and study under technical leaders guidance to gain valuable insights and enhance skillsets."
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "AtMAN VINA",
+        company_link: "https://atmaneuler.com/",
+        icon: atman,
+        iconBg: "#ffffff",
+        date: "Jan 2024 - Feb 2025",
+        points: [
+            "Built ERP web modules to evaluate products before mass production",
+            "Designed dashboards and forms to streamline prototype approvals",
+            "Automated workflows, cutting approval time and reducing errors",
+            "Integrated evaluation data with inventory and production systems",
+            "Collaborated with QA, production, and engineering teams on quality checks",
+            "Added validation rules to ensure compliance with product standards",
+            "Developed real-time dashboards and KPIs for managers",
+            "Participated in workshops to align ERP features with business needs",
+            "Provided training and support for non-technical users",
+            "Maintained code quality through documentation and testing",
+            "Improved product evaluation processes through iterative development",
+        ],
+    },
+    {
+        title: "Web Developer",
+        company_name: "Cyberlogitec Vietnam",
+        company_link: "https://www.cyberlogitec.com/en/index.php",
+        icon: cyberlogitec,
+        iconBg: "#ffffff",
+        date: "May 2024 - Present",
+        points: [
+            "Built enterprise web apps for shipping workflows, contract management, and sales supervision",
+            "Developed multi-tenant solutions supporting multiple logistics clients on a single platform",
+            "Designed and implemented microservices with Java & Spring Boot for scalability",
+            "Integrated Oracle databases with optimized queries and stored procedures",
+            "Worked with business analysts and stakeholders to turn logistics needs into solutions",
+            "Improved data accuracy with validation, error-checking, and consistency rules",
+            "Created APIs to connect logistics modules with third-party services",
+            "Built dashboards and reports to track shipping status, contracts, and KPIs",
+            "Automated workflows to reduce manual errors and speed approvals",
+            "Tuned performance to ensure high availability of mission-critical apps",
+            "Collaborated with UI/UX designers to improve usability for business users",
+            "Delivered secure, compliant solutions for sensitive contract and shipping data",
         ],
     },
 ] 
