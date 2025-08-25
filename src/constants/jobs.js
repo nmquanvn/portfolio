@@ -47,7 +47,7 @@ export const jobs = { works: [
         company_link: "https://system-exe.com.vn/",
         icon: systemexe,
         iconBg: "#ffffff",
-        date: "Apr 2022 - Sep 2023",
+        date: "Apr 2022 - Nov 2023",
         points: [
             "Work with cross-functional teams and senior developers to develop, build, and manage micro-service applications using Java and Spring Boot, aligning with client requirements and industry standards.",
             "Collab with QA members and other engineers to ensure the quality and reliability of software products.",
