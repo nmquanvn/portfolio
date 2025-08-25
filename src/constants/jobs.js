@@ -90,7 +90,7 @@ export const jobs = { works: [
             "Built enterprise web apps for shipping workflows, contract management, and sales supervision",
             "Developed multi-tenant solutions supporting multiple logistics clients on a single platform",
             "Designed and implemented microservices with Java & Spring Boot for scalability",
-            "Integrated Oracle databases with optimized queries and stored procedures",
+            "Optimized queries, packages and stored procedures to improve performance and maintainability.",
             "Worked with business analysts and stakeholders to turn logistics needs into solutions",
             "Improved data accuracy with validation, error-checking, and consistency rules",
             "Created APIs to connect logistics modules with third-party services",

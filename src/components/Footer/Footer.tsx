@@ -1,6 +1,7 @@
 import { Container } from "./styles";
 
-import reactIcon from "../../assets/react-icon.svg";
+// import reactIcon from "../../assets/react-icon.svg";
+import cogwheelIcon from "../../assets/cogwheel-svgrepo-com.svg"
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
 //import instagramIcon from '../../assets/instagram.png'
@@ -10,15 +11,15 @@ import faceBookIcon from "../../assets/facebook-tile.svg";
 export function Footer() {
     return (
         <Container className="footer">
-            <a href="/" className="logo">
+            <a href="/portfolio" className="logo">
                 <span>P</span>
                 <span>ortfolio</span>
             </a>
             <div>
                 <p>
-                    <img src={reactIcon} alt="React" /> 
+                    <img src={cogwheelIcon} alt="React" /> 
                     Stay focused, persistent and relentless
-                    <img src={reactIcon} alt="React" />
+                    <img src={cogwheelIcon} alt="React" />
                 </p>
             </div>
 

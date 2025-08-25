@@ -4,7 +4,15 @@ import profileImage from "../../assets/profile-image.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { skills } from "../../constants/skills";
 import { ReactTyped } from "react-typed";
-
+const intro = `
+Hi,<br/><br/>
+I’m Quan Nguyen, a Software Engineer with 3+ years of experience.<br/>
+I work with Java, Python, Golang, and JavaScript to build reliable and scalable applications.<br/><br/>
+My work includes fixing bugs, improving performance, and creating solutions that make systems run smoothly.<br/><br/>
+I’ve worked on both backend and frontend, so I understand how to deliver complete applications that balance strong functionality with a good user experience.<br/><br/>
+I enjoy learning new technologies and keeping up with industry best practices to keep improving my skills.<br/><br/>
+Thanks for checking out my profile!
+`;
 export function About() {
     return (
         <Container id="about">
@@ -13,7 +21,7 @@ export function About() {
                     <h2>About Me</h2>
                 </AnimationOnScroll>
                 <div className="text-wrap">
-                <ReactTyped strings={["Greetings, <br /><br /> I am Nguyen Minh Quan, a Software Engineer with more than 3 years of experience. <br /><br /> My proficiency extends to prominent programming languages, including Java, Python, and Golang. My professional focus lies in the meticulous design and implementation of robust solutions that align with exacting standards. <br /><br /> My experience encompasses a spectrum of responsibilities, from bug resolution to the optimization of application systems. In addition, I remain dedicated to remaining abreast of the latest technological advancements and industry best practices. <br /><br />Thank you for checking out my profile. <br /><br /> Quan Nguyen."]}
+                <ReactTyped strings={[intro]}
                         className="text" 
                         typeSpeed={5}
                         onComplete={(self) => {self.cursor.remove()}}

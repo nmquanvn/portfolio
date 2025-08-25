@@ -45,7 +45,7 @@ export const skillsData = {
             expData: {
                 tech: "Web App",
                 position: "Web Developer (Spring Boot)",
-                period: "more than 3 years of experience",
+                period: "3 years of experience",
                 details: [
                     {
                         subject:"Languages",
@@ -91,7 +91,7 @@ export const skillsData = {
             expData: {
                 tech: "Quality Assurance",
                 position: "QA Engineer",
-                period: "more than 1 year of experience",
+                period: "1 year of experience",
                 details: [
                     {
                         subject:"Functional testing",
